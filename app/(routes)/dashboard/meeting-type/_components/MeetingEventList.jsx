@@ -72,7 +72,6 @@ function MeetingEventList() {
                         </DropdownMenuTrigger>
                         <DropdownMenuContent>
                           
-                            <DropdownMenuItem className="flex gap-2"> <Pen/> Edit</DropdownMenuItem>
                             <DropdownMenuItem className="flex gap-2"
                             onClick={()=>onDeleteMeetingEvent(event)}
                             > <Trash/> Delete</DropdownMenuItem>
@@ -98,8 +97,7 @@ function MeetingEventList() {
                     }}
                     >
                         <Copy className='h-4 w-4'/> Copy Link </h2>
-                    <Button variant="outline" 
-                    className="rounded-full text-primary border-primary ">Share</Button>
+                   
                     </div>
                 </div>
             ))
